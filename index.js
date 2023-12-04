@@ -50,11 +50,8 @@ app.get('/', (requisicao, resposta) => {
                 completa: dados.completa === 0 ? false : true
             }
         })
-
-        
+        resposta.render('home', { tarefas })      
     })
-
-    resposta.render('home')
 })
 
 const conexao = mysql.createConnection({
