@@ -16,7 +16,7 @@ function descompletarTarefa(id) {
         headers: {
             'Contend-Type': 'application/json'
         },
-        body: JSON.stringify({ id })
+        body: JSON.stringify({ id }) 
     })
 
     window.location.reload()
