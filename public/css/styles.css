@@ -264,7 +264,7 @@ main {
 }
  
 .tarefa input:hover,
-.tarefa label:hover 
+.tarefa label:hover,
 .tarefa button:hover{
     cursor: pointer;
     
